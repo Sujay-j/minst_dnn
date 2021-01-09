@@ -1,4 +1,4 @@
- i have used the Keras Sequential API, where you have just to add one layer at a time, starting from the input.
+ I have used the Keras Sequential API, where you have just to add one layer at a time, starting from the input.
 
 The first is the convolutional (Conv2D) layer. It is like a set of learnable filters. I choosed to set 64 filters for the two firsts conv2D layers and 128 filters for the two second layers and 256 filters for the last ones. Each filter transforms a part of the image (defined by the kernel size) using the kernel filter. The kernel filter matrix is applied on the whole image. Filters can be seen as a transformation of the image.
 
